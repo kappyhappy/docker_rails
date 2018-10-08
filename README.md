@@ -39,7 +39,7 @@ docker-compose run web bundle exec rake db:create
 localhost:3000  
 
 #if you use docker toolbox for windows, check IP first and try to see with your browser  
-docker-machine ip default
+docker-machine ip default  
 
-#type IP checked above instead of localhost 
+#type IP checked above instead of localhost   
 http://IP:3000  
